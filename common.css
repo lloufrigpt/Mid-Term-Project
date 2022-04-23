@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: "NEXON Lv2 Gothic";
+    src: url('../webfont/NEXON Lv2 Gothic.eot'),
+    url("../webfont/NEXON Lv2 Gothic.woff"),
+    url("../webfont/NEXON Lv2 Gothic?#iefix") format('embedded-opentype');
+}
+* {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    box-sizing: border-box;
+}
+blockquote, body, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul, p, table {
+    line-height: 1.3;
+    letter-spacing: -0.8px;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+dl, li, ol, ul {
+    list-style: none;
+}
+a, a:active, a:hover {
+    text-decoration: none;
+}
+button, input, select, textarea {
+    vertical-align: middle;
+}
+button {
+    border: 0;
+    background-color: initial;
+    cursor: pointer;
+}
+button, input, a, select, option {
+    cursor: pointer;
+}
+body {
+    font-family: "NEXON Lv2 Gothic";
+    background: rgb(255, 241, 226);
+}
+.wrap{
+    width: 100%;
+    background:  rgb(255, 241, 226);
+    position: relative;
+}
+
