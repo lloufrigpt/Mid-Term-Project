@@ -46,3 +46,63 @@ body {
     position: relative;
 }
 
+
+input[type="checkbox"]{
+    border: none;
+}
+#header{
+    box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+    padding-top: 15px;
+    background-color: rgb(255, 239, 226);
+    z-index: 500;
+    top: 0;
+    opacity: 1;
+    position: fixed;
+}
+#header p {
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bold;
+}
+#send {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+
+    background-color: rgb(221, 221, 221);
+    z-index: 500;
+    bottom: 0;
+    opacity: 1;
+    position: fixed;
+}
+#send div{
+    display: inline-block;
+}
+#send_box {
+    display: inline-block;
+    background-color: white;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 90%;
+    margin: 8px;
+}
+#send_box input {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: none;
+    padding-left: 13px;
+}
+#send_img {
+    cursor: pointer;
+    width: 7%;
+    height: auto;
+}
+#send_img img{
+    width: 32px; 
+    height: 30px;
+    filter: opacity(.5) drop-shadow(0 0 0 rgb(177, 177, 177));
+}
